@@ -1,0 +1,41 @@
+/* Chọn TẤT CẢ các thẻ h1 trên trang và áp dụng kiểu*/
+h1 {
+  /*Chỉ định màu văn bản*/
+  color: green;
+  /* Thêm đường trang trí cho văn bản */
+}
+
+/* 
+- Có khoảng 50-60 selector khác nhau
+- Chưa tính các bộ chọn (selector) kết hợp
+- Quy ước dùng 1 cách thức (loại bộ chọn) để áp dụng CSS
+=> Selector: Class
+*/
+/* Khi chia class vs tên cố định,
+chúng ta cần dùng kí tự "." kèm theo tên của class  */
+.heading {
+  font-size: 50px;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+/* Áp dụng cho tất cả nội dung với dấu "*" */
+* {
+  text-decoration: overline wavy red 3px;
+}
+/* Áp dụng cho nhiều bộ chọn khác nhau: Gõ tên 2 class đã đặt tên và cách nhau bằng dấu "," */
+.description,
+.external-link {
+  text-decoration: overline;
+  color: pink;
+}
+
+/* Áp dụng cho thẻ có classs .avatar nằm bên trong .container (là thẻ con) */
+.container > .avatar {
+  width: 400px;
+}
+
+/* Áp dụng cho phần từ có CẢ HAI CLASS */
+.heading.special-heading {
+  color: blue;
+}
