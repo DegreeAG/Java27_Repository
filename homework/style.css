@@ -1,0 +1,79 @@
+* {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+  color: rgb(17, 203, 228);
+  text-decoration: underline;
+}
+
+.date {
+  text-align: end;
+}
+
+.name {
+  text-align: end;
+}
+
+.picture {
+  width: 800px;
+}
+
+.text {
+  text-align: justify;
+}
+
+.link:link {
+  color: blue;
+  text-decoration: none;
+}
+
+.link:visited {
+  color: green;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+
+.link:active {
+  color: red;
+  text-decoration: underline;
+}
+
+.news {
+  text-decoration: underline;
+  color: white;
+}
+
+body {
+  background-color: rgb(44, 38, 38);
+  font-size: 16px;
+  color: white;
+}
+
+.content-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(44, 38, 38);
+  border: 1px solid #555;
+}
+
+.lazy a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+/* Đổi màu di chuột */
+.lazy a:hover {
+  background-color: gray;
+  color: green;
+}
