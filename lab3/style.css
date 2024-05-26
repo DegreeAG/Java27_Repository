@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box; /*Căn chỉnh kích thước đúng vs contentbox và các padding, border*/
+}
+
+.box {
+  /* Thay đổi cách hiển thị box model */
+  display: block;
+
+  /* Màu nền */
+  background-color: green;
+
+  /* Content-Box */
+  width: 300px; /*chiều rộng */
+  height: 300px; /*chiều cao */
+
+  /* Padding-Box */
+  padding: 30px; /* Tính vào kích thước phần tử */
+
+  /* Border-Box */
+  border: 5px solid brown; /* Tính vào kích thước phần tử */
+  border-radius: 30px; /* Bo viền tròn */ /* Tính vào kích thước phần tử */
+
+  /* Margin - Khoảng cách giữa các nội dung với nhau */
+  margin-bottom: 50px; /* Không tính vào kích thước */
+  background-image: url(image.jpeg); /*Ảnh nền */
+}
