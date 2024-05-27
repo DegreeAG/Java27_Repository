@@ -1,51 +1,74 @@
-* {
+*{
   box-sizing: border-box;
-  text-align: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 body {
-  background-color: #001d66;
-  place-items: center;
-  margin: 8px;
-  font-size: 16px;
+  background: #001d66;
   display: grid;
-  text-decoration: #00257f;
-}
-.article {
-  display: block;
+  margin: 8px;
 }
 
 .article_content-header {
-  color: white;
-  font-size: 32px;
-  font-family: Josefin Slab;
-  font-weight: 700;
+  display: block;
   margin: 21px;
 }
 
-.article_box {
-  background-color: white;
-  width: 20em;
-}
-
-.article_thumbnail {
-  width: 280px;
-  overflow: clip;
-  display: inline;
-  object-fit: cover;
-  vertical-align: middle;
-}
-
-.article_meta {
-  font-family: Josefin Slab;
+h1 {
   font-size: 32px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
   font-weight: 700;
+  font-family: "Josefin Slab", serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.article_main {
+  display: block;
+  width: 320px;
+  background: #fff;
+  padding: 20px;
+  display: block;
+
+}
+
+h3 {
+  font-size: 32px;
+  color: #00257f;
+  font-family: "Josefin Slab", serif;
+  display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin-bottom: 30px;
+  font-weight: bold;
 }
 
+img {
+  width: 100%;
+  overflow: clip;
+}
 
+.article_text {
+  font-family: "PT Serif", Serif;
+  color: rgba(0, 0, 0, 0.67);
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin: 16px 0px 16px 0px;
+}
+
+.article_date {
+  font-size: 12.8px;
+  font-family: "PT Serif", Serif;
+  color: rgba(0, 0, 0, 0.67);
+  display: block;
+  margin: 13px 0px 13px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #001d66;
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
+  font-size: 13.913px;
+}
