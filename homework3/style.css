@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  text-align: left;
+  font-family: Roboto;
+}
+
+.article_header {
+  padding: 64px;
+}
+
+.article_header a {
+  float: right;
+  font-size: 17px;
+  letter-spacing: 0.425px;
+  line-height: 27.2px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  padding-top: 9px;
+}
+
+.article_releases {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20% 0;
+}
+
+.article_releases a {
+  text-decoration: none;
+  color: black;
+}
+
+.article_product-releases {
+  height: 450.031px;
+  width: 312.5px;
+  padding: 0 0 0 30px;
+  min-height: 1px;
+  float: left;
+  clear: both;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43.2px;
+  text-align: center;
+}
+
+.article_thumbnail-releases {
+  height: 284.5px;
+  width: 284.5px;
+  max-width: 100%;
+  overflow: clip;
+  background-image: url("https://leospaw.com/cdn/shop/files/leos-paw-absorbent-pet-feeding-mat-55568697721156_720x.jpg?v=1711564301");
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+}
+
+.article_thumbnail:hover {
+  background-image: url("	https://leospaw.com/cdn/shop/files/leos-paw-absorb…-feeding-mat-55686132236612_360x.jpg?v=1712076762");
+}
+
+.article_title {
+  font-size: 20.06px;
+  letter-spacing: 0.425px;
+  line-height: 30.09px;
+}
+
+.article_rating {
+  font-size: 17px;
+  letter-spacing: 0.425px;
+  line-height: 25.5px;
+  padding: 6px 0px;
+}
+.article_loved {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20% 0;
+}
+.article_product-loved {
+  height: 450.031px;
+  width: 312.5px;
+  padding: 0 0 0 30px;
+  min-height: 1px;
+  float: left;
+  clear: both;
+}
+
+.article_loved a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400; /*????*/
+}
+
+.article_thumbnail-loved {
+  height: 284.5px;
+  width: 284.5px;
+  max-width: 100%;
+  overflow: clip;
+}

@@ -46,6 +46,7 @@ h3 {
 img {
   width: 100%;
   overflow: clip;
+  vertical-align: middle;
 }
 
 .article_text {
@@ -62,7 +63,7 @@ img {
   font-family: "PT Serif", Serif;
   color: rgba(0, 0, 0, 0.67);
   display: block;
-  margin: 13px 0px 13px 0px;
+  margin: 13px 0px 13px 0px;  
 }
 
 a {
