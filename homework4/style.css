@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter;
+}
+
+.container {
+  width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-inline: -10px;
+  margin-top: -20px;
+}
+
+.row > [class*="col-"] {
+  margin-top: 20px;
+}
+
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+/* Utility classes */
+.d-flex {
+  display: flex;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.figma_picture {
+  width: 460px;
+  border-radius: 20px;
+  align-items: center;
+  overflow: clip;
+}
+
+.figma_header {
+  width: 380px;
+}
+
+.figma_header h1 {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  line-height: 60px;
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+.figma_description {
+  box-sizing: border-box ;
+  height: 72px;
+  width: 380px;
+}
+
+.figma_description h2 {
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-size: 24px;
+  font-weight: 500px ;
+  letter-spacing: -0.5px;
+  line-height: 36px;
+  color: rgb(136, 136, 136);
+  text-align: left;
+  white-space: pre-wrap;
+  text-transform: none;
+}
+
+.figma_text {
+
+}
