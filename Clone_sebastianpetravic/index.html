@@ -6,6 +6,7 @@
     <title>sebastianpetravic</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="position.css" />
+    <link rel="stylesheet" href="grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,10 +15,10 @@
     />
   </head>
   <body>
-    <header class="nav-bar ">
+    <header class="nav-bar">
       <div class="nav-items">
         <a class="logo-web" href="https://sebastianpetravic.webflow.io/">
-            <div class="logo-block"></div>
+          <!-- <div class="logo-block"></div> -->
           <img
             class="logo-image"
             src="https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/60baff5fcc93ec0fda8a19ba_s%20logo%20copy%203.png"
@@ -28,25 +29,28 @@
         <div class="nav-wrap">
           <nav role="navigation" class="nav-menu nav-items">
             <a
-              class="nav-item"
+              class="nav-item nav-link"
               href="https://sebastianpetravic.webflow.io/about"
-            ></a>
+              >About</a
+            >
             <a
-              class="nav-item"
+              class="nav-item nav-link"
               href="http://sebastianpetravic.webflow.io/#wf-form-Email-Form/"
-            ></a>
+              >Contact</a
+            >
             <div class="nav-block">
               <a
-                class="button"
+                class="button nav-link"
                 href="http://sebastianpetravic.webflow.io/#works-grid/"
-              ></a>
+                >View Work</a
+              >
             </div>
           </nav>
         </div>
       </div>
-      <!-- <div class="web-item">
+      <div class="web-item">
         <a
-          class="linkedin-link"
+          class="linkedin-link inline-block"
           href="https://www.linkedin.com/in/sebastianpetravic/"
         >
           <img
@@ -55,18 +59,21 @@
             alt=""
           />
         </a>
-        <a class="linkedin-link" href="https://dribbble.com/bombasty/shots">
+        <a
+          class="linkedin-link inline-block"
+          href="https://dribbble.com/bombasty/shots"
+        >
           <img
             class="social-icon"
             src="	https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/6011429d53142082aa4de489_logo-dribbble.png"
             alt=""
           />
         </a>
-      </div> -->
+      </div>
     </header>
     <main class="main">
       <section class="container">
-        <div class="hi-there">
+        <div class="hi-there layout">
           <div class="hi-there-description">
             <div class="hi-there-header">
               <h1>Hi there!</h1>
