@@ -363,7 +363,7 @@ button {
   object-fit: fill;
 }
 .message {
-  padding-bottom: 6rem;
+  padding-bottom: 0.6rem;
 }
 .status-message {
   padding: 9px 30px;
@@ -423,5 +423,5 @@ footer {
   line-height: 26px;
 }
 .textarea-height {
-    height: 150px;
+  height: 150px;
 }
