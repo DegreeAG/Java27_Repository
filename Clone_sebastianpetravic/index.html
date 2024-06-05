@@ -6,7 +6,7 @@
     <title>sebastianpetravic</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="position.css" />
-    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="grid.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -74,6 +74,11 @@
     <main class="main">
       <section class="container">
         <div class="hi-there layout">
+          <img
+            class="hi-there-pic"
+            src="	https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/600d02571dd34a98dc957dc1_me12%202.png"
+            alt=""
+          />
           <div class="hi-there-description">
             <div class="hi-there-header">
               <h1>Hi there!</h1>
@@ -83,11 +88,6 @@
               deep desire to excel and continuously improve in my work. Learn
               more about my journey below.
             </p>
-            <img
-              class="hi-there-pic"
-              src="	https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/600d02571dd34a98dc957dc1_me12%202.png"
-              alt=""
-            />
           </div>
         </div>
       </section>
@@ -126,14 +126,14 @@
       <section class="container">
         <div class="on-working">
           <h1>On Working With Me</h1>
-          <div class="on-working-description">
+          <div class="on-working-description d-flex">
             <div class="reference-person">
               <img
                 src="https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/6003bc8a500ee553547067e4_1560732160364.jpeg"
                 alt=""
               />
               <h5>Lana Kinney</h5>
-              <div class="text-block">UX Researcher at AKQA</div>
+              <div class="reference-person-position">UX Researcher at AKQA</div>
             </div>
             <div class="from-reference-person">
               "Sebastian is a guru at all things UX design, consistently
@@ -150,64 +150,62 @@
       </section>
       <section class="container">
         <div class="contact">
-          <div class="contact-form">
+          <div class="contact-form d-flex">
             <div class="get-in-touch">
               <h3>Want to get in touch?</h3>
-              <div class="contact-form-block">
-                <form class="mail-form" action="abc@gmail.com">
-                  <div class="contact-form-grid">
-                    <div class="name">
-                      <label for="NAME">Name</label>
-                      <input
-                        type="text"
-                        class="text-field w-input"
-                        maxlength="256"
-                        name="Name"
-                        data-name="Name"
-                        placeholder="Enter your name"
-                        id="Name"
-                      />
-                    </div>
-                    <div class="email-address">
-                      <label for="EMAIL">Email Address</label>
-                      <input
-                        type="email"
-                        class="text-field w-input"
-                        maxlength="256"
-                        name="Email"
-                        data-name="Email"
-                        placeholder="Enter your email"
-                        id="Email"
-                        required=""
-                      />
-                    </div>
-                    <div class="message">
-                      <label for="MESSAGE">Message</label>
-                      <textarea
-                        id="Message"
-                        name="Message"
-                        placeholder="Enter your message"
-                        maxlength="5000"
-                        data-name="Message"
-                        class="text-field cc-textarea w-input"
-                      ></textarea>
-                    </div>
+            </div>
+            <div class="contact-form-block">
+              <form action="abc@gmail.com">
+                <div class="mail-form">
+                  <div class="name">
+                    <label class="field-label" for="NAME">Name</label>
+                    <input
+                      type="text"
+                      class="text-field w-input"
+                      maxlength="256"
+                      name="Name"
+                      data-name="Name"
+                      placeholder="Enter your name"
+                      id="Name"
+                    />
                   </div>
-                  <input
-                    type="submit"
-                    value="Submit"
-                    data-wait="Please wait..."
-                    class="button w-button"
-                  />
-                </form>
-                <div class="status-message-success">
-                  <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div class="status-message-fail">
-                  <div>
-                    Oops! Something went wrong while submitting the form.
+                  <div class="email-address">
+                    <label class="field-label" for="EMAIL">Email Address</label>
+                    <input
+                      type="email"
+                      class="text-field w-input"
+                      maxlength="256"
+                      name="Email"
+                      data-name="Email"
+                      placeholder="Enter your email"
+                      id="Email"
+                      required=""
+                    />
+                  </div>
+                  <div class="message">
+                    <label class="field-label" for="MESSAGE">Message</label>
+                    <textarea
+                      id="Message"
+                      name="Message"
+                      placeholder="Enter your message"
+                      maxlength="5000"
+                      data-name="Message"
+                      class="text-field w-textarea w-input"
+                    ></textarea>
                   </div>
                 </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  data-wait="Please wait..."
+                  class="button d-flex"
+                />
+              </form>
+              <div class="status-message-success status-message">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="status-message-fail status-message">
+                <div>Oops! Something went wrong while submitting the form.</div>
               </div>
             </div>
           </div>
@@ -217,15 +215,15 @@
     </main>
     <footer>
       <div class="container">
-        <div class="footer-container">
-          <a class="footer-logo" href="https://sebastianpetravic.webflow.io/">
+        <div class="footer-container d-flex">
+          <a class="footer-logo " href="https://sebastianpetravic.webflow.io/">
             <img
               class="footer-image"
-              src="https://uploads-ssl.webflow.com/5fa25266badbdb239c…/5ff799656e9f7150a1ceb0e6_s%20logo%20copy%205.png"
+              src="https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/5ff799656e9f7150a1ceb0e6_s%20logo%20copy%205.png"
               alt=""
             />
           </a>
-          <div class="footer-block">
+          <div class="footer-block d-flex">
             <a href="https://dribbble.com/bombasty/shots" class="footer-link"
               >Dribbble</a
             >
