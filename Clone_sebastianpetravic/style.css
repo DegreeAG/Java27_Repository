@@ -63,19 +63,6 @@ img {
   color: #000;
   font-weight: 500;
 }
-/* .logo-block {
-  position: absolute;
-  z-index: 1000;
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  margin-top: 0;
-  padding-top: 0;
-  background-image: url(https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/60baff5fcc93ec0fda8a19ba_s%20logo%20copy%203.png);
-  background-position: 0 0;
-  background-size: contain;
-  transition: 175ms;
-} */
 .nav-wrap {
   display: flex;
   margin-right: -20px;
