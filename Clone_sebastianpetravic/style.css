@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #eeeff1;
+  font-family: Poppins, sans-serif;
+  color: #1a1b1f;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.nav-bar {
+  display: flex;
+  position: sticky;
+  height: 100%;
+  padding: 20px 50px;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+}
+header {
+  background: #ddd;
+  z-index: 1000;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+  color: rgb(26, 27, 31);
+}
+.logo-web {
+  z-index: 1;
+  position: relative;
+  float: left;
+  text-decoration: none;
+  color: #333;
+}
+a {
+  background-color: transparent;
+  display: block;
+  transition: opacity 0.2s;
+}
+.logo-image {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  border-radius: 0;
+  opacity: 0;
+  cursor: auto;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  overflow: clip;
+}
+.text-logo {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  padding-left: 15px;
+  color: #000;
+  font-weight: 500;
+}
+.logo-block {
+  position: absolute;
+  z-index: 1000;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-top: 0;
+  padding-top: 0;
+  background-image: url(https://uploads-ssl.webflow.com/5fa2526…/5fa6288…_s%20logo%20copy%203.png);
+  background-position: 0 0;
+  background-size: contain;
+  transition: 175ms;
+}
+.nav-wrap {
+  display: flex;
+  margin-right: -20px;
+  align-items: center;
+  cursor: pointer;
+}
+.nav-menu {
+  position: relative;
+  float: right;
+}

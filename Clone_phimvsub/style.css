@@ -23,14 +23,6 @@ body {
   align-items: center;
 }
 
-.container {
-  width: 1460px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .navbar-header {
   padding: 0.5rem 0;
 }
@@ -318,14 +310,11 @@ h2 {
   padding: 1rem 0;
   font-size: 15px;
   background-color: #0c0c0c;
+  width: 1920px;
+  height: 76px;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 8px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin: 0 0 8px 0;
   text-align: center;
 }
