@@ -297,14 +297,13 @@ h5 {
   margin-bottom: 120px;
   margin-left: 0;
   padding: 80px 60px 60px;
-  border: 0 solid #d6d9e7;
+  border: 1px solid black;
   border-radius: 14px;
   background-image: none;
   background-size: auto;
   background-attachment: scroll;
   box-shadow: none;
   background-clip: border-box;
-  -webkit-text-fill-color: inherit;
 }
 
 .get-in-touch h3 {
@@ -328,6 +327,7 @@ h5 {
 .field-label {
   margin-bottom: 5px;
   color: #8f929e;
+  height: 150px;
 }
 label {
   font-size: 12px;
@@ -374,6 +374,9 @@ button {
   text-align: center;
   cursor: pointer;
   object-fit: fill;
+}
+.message {
+  padding-bottom: 6rem;
 }
 .status-message {
   padding: 9px 30px;
