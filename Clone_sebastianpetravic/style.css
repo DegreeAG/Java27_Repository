@@ -230,6 +230,7 @@ h1 {
 }
 .my-career-skill {
   display: flex;
+  padding-top: 64px;
 }
 .skill-name-text {
   display: inline-block;
@@ -430,7 +431,4 @@ footer {
   color: #8f929e;
   font-size: 14px;
   line-height: 26px;
-}
-.my-career-skill {
-  padding-top: 64px;
 }
