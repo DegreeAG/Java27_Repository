@@ -422,3 +422,6 @@ footer {
   font-size: 14px;
   line-height: 26px;
 }
+.textarea-height {
+    height: 150px;
+}
